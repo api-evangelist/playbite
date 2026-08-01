@@ -1,7 +1,28 @@
 aid: playbite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/playbite.png
 name: Playbite
-description: Playbite is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Playbite is a free mobile arcade app - "an arcade in your pocket" - built by
+  Digital Media Technology SL and backed by 500 Global. The app offers an
+  ever-expanding library of simple, casual games spanning multiplayer, rhythm,
+  puzzle, matching, relaxing, and racing categories, with over 500,000 players
+  who play games and earn rewards. The service is free to users and monetized
+  through non-intrusive advertising. Playbite is a consumer-facing mobile
+  gaming product distributed through the Apple App Store and Google Play; it
+  publishes no public developer API, SDK, or developer portal, so this profile
+  captures its company identity, public web properties, and domain security
+  posture rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/playbite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Casual Games
+- Mobile App
+- Rewards
+- Entertainment
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://playbite.com
+- type: Blog
+  url: https://www.playbite.com/blog/
+- type: Support
+  url: https://www.playbite.com/ask
+- type: PrivacyPolicy
+  url: https://www.playbite.com/privacy/
+- type: TermsOfService
+  url: https://www.playbite.com/terms-of-service/
+- type: SignUp
+  url: https://apps.apple.com/us/app/playbite-mobile-arcade/id1522413113
+- type: DomainSecurity
+  url: security/playbite-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
